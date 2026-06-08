@@ -19,6 +19,7 @@
     "fast2sms": "^1.0.3",
     "jsonwebtoken": "^9.0.3",
     "mysql2": "^3.22.5",
+    "nodemailer": "^8.0.10",
     "sequelize": "^6.37.8"
   }
 }
