@@ -11,7 +11,7 @@ const Budget = require('./models/Budget');
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
-  origin: 'https://daily-expense-tracker-update.netlify.app'
+  origin: '*'
 }));
 app.use(express.json());
 app.use('/api/expenses', expenseRoutes);
