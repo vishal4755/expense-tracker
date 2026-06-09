@@ -25,6 +25,7 @@ const Expense = sequelize.define('Expense', {
       'Medical',
       'Education',
       'Grocery',
+      'Room Rent',
       'Others'
     ),
     allowNull: false
